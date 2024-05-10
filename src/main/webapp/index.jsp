@@ -8,10 +8,11 @@
     <title>Shridevi R Shetty - DevOps Enthusiast</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
+            background-color: #f8f8f8;
+            color: #333;
         }
 
         .container {
@@ -44,6 +45,8 @@
             height: 150px;
             border-radius: 50%;
             margin-bottom: 10px;
+            border: 5px solid #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         .profile h2 {
@@ -53,6 +56,10 @@
 
         .profile p {
             color: #666;
+        }
+
+        .content {
+            margin-top: 20px;
         }
 
         .footer {
