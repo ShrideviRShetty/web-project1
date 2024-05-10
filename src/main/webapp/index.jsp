@@ -50,12 +50,12 @@
         }
 
         .profile h2 {
-            color: black;
+            color: purple;
             margin-bottom: 5px;
         }
 
         .profile p {
-            color: purple;
+            color: #666;
         }
 
         .content {
