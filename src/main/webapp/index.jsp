@@ -1,72 +1,83 @@
-<html>
-<head>
-<title>PortFolio</title>
-<style>
-.bgimage {
-    height:100vh;
-    background-color: black;
-    color: white;
-    background-size:cover;
-    position:relative;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-.hero_title {
-    font-size: 4.5rem;
-}
-.hero_desc {
-    font-size: 2rem;
-}
-.hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-}
-.imageAboutPage {
-    width: 100%;
-}
-</style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shridevi R Shetty - DevOps Enthusiast</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .profile {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .profile h2 {
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .profile p {
+            color: #666;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #666;
+        }
+    </style>
 </head>
+
 <body>
-<nav class="navbar navbar-expand-lg fixed-top navbarScroll">
-        <div class="container">
-            <a class="navbar-brand" href="#">shree</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-                
-            </div>
+    <div class="container">
+        <div class="profile">
+            <img src="your-profile-image.jpg" alt="Shridevi R Shetty">
+            <h2>Shridevi R Shetty</h2>
+            <p>DevOps Enthusiast</p>
         </div>
-    </nav>
- <section class="bgimage" id="home">
-        <div class="container-fluid">
-            <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                <h2 class="hero_title">Hi, it's me Shridevi R Shetty</h2>
-                <p class="hero_desc">I am a Devops Enthusiast </p>
-            </div>
-            </div>
+        <div class="content">
+            <h3>About Me</h3>
+            <p>I am a passionate DevOps enthusiast with a strong interest in automating processes and improving efficiency. I have experience with various DevOps tools and technologies and enjoy working in dynamic environments.</p>
         </div>
-    </section>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Shridevi R Shetty</p>
+    </div>
 </body>
+
 </html>
