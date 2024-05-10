@@ -66,7 +66,6 @@
 <body>
     <div class="container">
         <div class="profile">
-            <img src="your-profile-image.jpg" alt="Shridevi R Shetty">
             <h2>Shridevi R Shetty</h2>
             <p>DevOps Enthusiast</p>
         </div>
